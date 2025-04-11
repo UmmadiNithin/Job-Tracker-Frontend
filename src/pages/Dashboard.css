@@ -1,0 +1,75 @@
+.dashboard-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+
+
+  .dashboard-header {
+    height: 60px;
+    background: linear-gradient(to right, #1d72b8, #1488cc, #1e9fc6);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+    position: fixed;   
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;       
+    margin: 0;
+  }
+  
+
+  
+
+  .dashboard-title {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #e8e9eb; /* slate-800 */
+  }
+  
+  .dashboard-user {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .dashboard-content {
+    display: flex;
+    flex: 1;
+ 
+  }
+  
+  .dashboard-main {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

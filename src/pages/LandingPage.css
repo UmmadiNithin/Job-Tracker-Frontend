@@ -1,0 +1,40 @@
+.landing-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../images/starting-page.jpg'); /* update the path */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .start-button {
+    padding: auto;
+    font-size: 1.2rem;
+    background-color: rgb(157, 113, 78);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-left: 700px;
+    margin-top: 500px;
+    height: 40px;
+    width: 170px;
+  }
+  
+  .start-button:hover {
+    background-color: rgb(215, 213, 213);
+  }
+  
+
+
+
+
+
+
+
+
